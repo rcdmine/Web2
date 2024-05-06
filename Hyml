@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stop Mewing</title>
+</head>
+<body>
+
+<audio id="mewingAudio" src="mewing.mp3"></audio>
+
+<button onclick="stopMewing()">Stop Mewing</button>
+
+<script>
+function stopMewing() {
+  var audio = document.getElementById("mewingAudio");
+  audio.pause();
+}
+</script>
+
+</body>
+</html>
